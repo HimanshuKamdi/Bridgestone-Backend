@@ -4,7 +4,7 @@ from datetime import timedelta
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&duto)c(mh6)3e6#@!k4504@8s11@z8elz9^x35ofoeks9ete('
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bridgestone-backend-production-acbf.up.railway.app/']
 
 # Application definition
 INSTALLED_APPS = [
